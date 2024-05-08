@@ -21,7 +21,7 @@
         <img src="Images/Combined-Shape.svg" alt="Logo">
       </a>
 
-      <nav>
+      <nav class="main-nav">
 
         <ul>
           <li>
@@ -41,6 +41,47 @@
           </li>
         </ul>
 
+      </nav>
+      <nav role="navigation">
+        <div id="menuToggle">
+          <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" />
+          
+          <!--
+          Some spans to act as a hamburger.
+          
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+          -->
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <!--
+          Too bad the menu has to be inside of the button
+          but hey, it's pure CSS magic.
+          -->
+          <ul id="menu">
+            <li>
+              <a href="#">Business areas</a>
+            </li>
+            <li>
+              <a href="#">Featured images</a>
+            </li>
+            <li>
+              <a href="#">Gear cage</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Get template</a>
+            </li>
+          </ul>
+        </div>
       </nav>
 
     </div>
@@ -299,7 +340,7 @@
 
     </div>
     <div class="container last-section">
-      
+
       <p>© Aperture Photography, Inc. All rights reserved. Licensing.</p>
       <ul>
         <li><a href="#"><img src="Images/twit.svg" alt="Twitter"></a></li>
@@ -310,5 +351,8 @@
     </div>
 
   </footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>

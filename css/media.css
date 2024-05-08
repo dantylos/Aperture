@@ -1,109 +1,120 @@
-
 @media only screen and (max-width:1195px){
-   .container{
+  .container{
     padding: 0 12px;
+  }
 }
-}
+
 @media only screen and (max-width: 1151px){
-    .products{
-        justify-content: space-around;
-    }
-    .cent-cont p{
-      max-width: 400px;
-    }
-    }
-@media only screen and (max-width: 910px){
-    .cent-cont p{
-      max-width: 300px;
-    }
+  .products{
+    justify-content: space-around;
+  }
+
+  .cent-cont p{
+    max-width: 400px;
+  }
 }
+
+@media only screen and (max-width: 910px){
+  .cent-cont p{
+    max-width: 300px;
+  }
+}
+
 @media only screen and (max-width: 880px){
-    header nav ul li{
-     margin-left: 10px;
-    }
-    .wrapper{
-      padding-bottom: 125px;
-    }
-    footer form{
-      width: 340px
-    }
- }
+  header .main-nav ul li{
+    margin-left: 10px;
+  }
+
+  .wrapper{
+    padding-bottom: 125px;
+  }
+
+  footer form{
+    width: 340px
+  }
+}
 
  @media only screen and (max-width: 771px){
-     header nav ul li a{
-         font-size: 10px;
-     }
-    .clients h3{
-      font-size: 28px;
-    }
-    .clients p{
-      font-size: 18px;
-    }
-    .cent-cont{
-      margin: auto;
-    }
-    .cent-cont p{
-      max-width: inherit;
-    }
- }
+  header .main-nav ul li a{
+    font-size: 10px;
+  }
+
+  .clients h3{
+    font-size: 28px;
+  }
+  .clients p{
+    font-size: 18px;
+  }
+  .cent-cont{
+    margin: auto;
+  }
+  .cent-cont p{
+    max-width: inherit;
+  }
+}
  
- @media only screen and (max-width: 767px){
-     header nav{
-      display: none;
-     }
+@media only screen and (max-width: 767px){
+  header .main-nav{
+    display: none;
+  }
+  header #menuToggle{
+    display: block;
+  }
 
-    .tools .image-bg{
-      position: relative;
-      width: 100%;
-      height: 450px;
-    }
+  .tools .image-bg{
+    position: relative;
+    width: 100%;
+    height: 450px;
+  }
 
-    .companies{
-      flex-direction: column;
-      row-gap: 36px;
-    }
-    .company-img{
-      max-width: 180px;
-    }
-    .company-img img{
-      width: 100%;
-      display: block;
-    }
+  .companies{
+    flex-direction: column;
+    row-gap: 56px;
+  }
+  .company-img{
+    max-width: 180px;
+  }
+  .company-img img{
+    width: 100%;
+    display: block;
+  }
 
-     footer .left-logo{
-      max-width: 310px;
-     }
-     footer .left-logo p{
-      max-width: 260px;
-     }
-     footer .right-sub-menu ul:first-of-type {
-      margin-right: 30px;
-     }
-     footer form{
-      width: 260px
-    }
- }
+  footer .left-logo{
+    max-width: 310px;
+  }
+  footer .left-logo p{
+    max-width: 260px;
+  }
+  footer .right-sub-menu ul:first-of-type {
+    margin-right: 30px;
+  }
+  footer form{
+    width: 260px
+  }
+}
+
  @media only screen and (max-width: 680px){
-    
-footer .last-section p {
-  font-size: 10px;
+  footer .last-section p {
+    font-size: 10px;
+  }
 }
+
+@media only screen and (max-width: 540px){
+  .wrapper{
+    margin: auto;
+  }
+  .works_wrapper h3{
+    font-size: 28px;
+  }
+  .works_wrapper p{
+    font-size: 16px;
+  }
+  .works_wrapper .products .page .content p{
+    max-width: 400px;
+  }
 }
- @media only screen and (max-width: 540px){
-    .wrapper{
-      margin: auto;
-    }
-    .works_wrapper h3{
-      font-size: 28px;
-    }
-    .works_wrapper p{
-      font-size: 16px;
-    }
-    .works_wrapper .products .page .content p{
-      max-width: 400px;
-    }
- }
- @media only screen and (max-width: 440px){
+
+@media only screen and (max-width: 440px){
   .works_wrapper .products .page .content p{
     max-width: 320px;
   }
@@ -114,24 +125,29 @@ footer .last-section p {
   footer .right-sub-menu{
     margin-top: 28px;
   }
- }
- @media only screen and (max-width: 380px){
+}
+
+@media only screen and (max-width: 380px){
   footer .last-section p {
     font-size: 8px;
   }
 }
- @media only screen and (max-width: 360px){
+
+@media only screen and (max-width: 360px){
   .bottom-icon li{
     margin-left: 8px;
     font-size: 10px;
   }
+
   .works_wrapper .products .page .content p{
     max-width: 240px;
   }
+
   .text{
     padding-left: 12px;
   }
- }
+}
+
  @media only screen and (max-width: 305px){
   .bottom-icon li{
     margin-left: 5px;
@@ -140,6 +156,7 @@ footer .last-section p {
   .bottom-icon li::before{
     width: 12px;
   }
+
   .works_wrapper h3{
     font-size: 20px;
   }
@@ -149,4 +166,4 @@ footer .last-section p {
   .works_wrapper .products .page .content h5{
     font-size: 10px;
   }
- }
+}
