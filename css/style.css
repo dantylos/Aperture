@@ -3,14 +3,17 @@
   margin: 0;
 }
 
-header{
-  background: #181818;
-  padding: 24px 0;
-}
-
 .container{
   max-width: 1200px;
   margin: auto;
+}
+
+
+/* HEADER   */
+
+header{
+  background: #181818;
+  padding: 24px 0;
 }
 
 header .container{
@@ -56,6 +59,10 @@ header nav ul li:last-of-type a{
   font-size: 16px;
   letter-spacing: 0.4px;
 }  
+
+
+/* MAIN   */
+
 .wrapper{
   padding-bottom: 70px;
 }
@@ -288,24 +295,24 @@ header nav ul li:last-of-type a{
 
 .works_wrapper h3{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 42px;
-text-align: center;
-color: #FFFFFF;
-margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 15px;
 }
 
 .works_wrapper p{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 23px;
-line-height: 30px;
-text-align: center;
-color: #C0C0C0;
-margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+  margin-bottom: 40px;
 }
 
 .page{
@@ -323,25 +330,25 @@ margin-bottom: 40px;
 
 .works_wrapper .products .page .content p{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-color: #C0C0C0;
-text-align: left;
-max-width: 500px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  text-align: left;
+  max-width: 500px;
 }
 
 .works_wrapper .products .page .content h5{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 15px;
 }
 .works_wrapper .products .page .content a{
   font-family: 'Poppins';
@@ -405,24 +412,24 @@ margin-bottom: 15px;
 
 .tools h5{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #C0C0C0;
-margin-bottom: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  margin-bottom: 6px;
 }
 
 .tools h4{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-line-height: 32px;
-color: #FFFFFF;
-margin-bottom: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 14px;
 }
 
 .tools p{
@@ -469,12 +476,12 @@ margin-bottom: 14px;
 
 .clients h3{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 42px;
-text-align: center;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
 
 }
 
@@ -494,6 +501,9 @@ color: #C0C0C0;
   align-items: center;
   padding-top: 80px;
 }
+
+
+/* FOOTER   */
 
 footer{
   padding-top: 80px;
@@ -516,26 +526,26 @@ footer .container:last-of-type{
 
 footer .left-logo p{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #C0C0C0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
 }
 
 footer h5{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-top: 36px;
-margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 36px;
+  margin-bottom: 20px;
 }
 .button_text{
   margin-bottom: 36px;
@@ -563,13 +573,13 @@ margin-bottom: 10px;
 
 footer .right-sub-menu ul li:first-of-type{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #C0C0C0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
 }
 
 footer .right-sub-menu ul:first-of-type{
@@ -612,14 +622,14 @@ footer form button{
 
 footer .last-section p{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #C0C0C0;
-margin-top: 56px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  margin-top: 56px;
 }
 footer .last-section ul{
   list-style: none;

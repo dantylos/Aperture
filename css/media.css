@@ -39,9 +39,6 @@
     .clients p{
       font-size: 18px;
     }
-    .companies a img{
-      max-width: 100px;
-    }
     .cent-cont{
       margin: auto;
     }
@@ -52,7 +49,7 @@
  
  @media only screen and (max-width: 767px){
      header nav{
-         display: none;
+      display: none;
      }
 
     .tools .image-bg{
@@ -61,8 +58,23 @@
       height: 450px;
     }
 
+    .companies{
+      flex-direction: column;
+      row-gap: 36px;
+    }
+    .company-img{
+      max-width: 180px;
+    }
+    .company-img img{
+      width: 100%;
+      display: block;
+    }
+
      footer .left-logo{
       max-width: 310px;
+     }
+     footer .left-logo p{
+      max-width: 260px;
      }
      footer .right-sub-menu ul:first-of-type {
       margin-right: 30px;
@@ -90,16 +102,17 @@ footer .last-section p {
     .works_wrapper .products .page .content p{
       max-width: 400px;
     }
-    .companies a img{
-      max-width: 80px;
-    }
  }
  @media only screen and (max-width: 440px){
   .works_wrapper .products .page .content p{
     max-width: 320px;
   }
-  .companies a img{
-    max-width: 70px;
+
+  footer .container{
+    flex-direction: column;
+  }
+  footer .right-sub-menu{
+    margin-top: 28px;
   }
  }
  @media only screen and (max-width: 380px){
@@ -118,9 +131,6 @@ footer .last-section p {
   .text{
     padding-left: 12px;
   }
-  .companies a img{
-    max-width: 50px;
-  }
  }
  @media only screen and (max-width: 305px){
   .bottom-icon li{
@@ -138,8 +148,5 @@ footer .last-section p {
   }
   .works_wrapper .products .page .content h5{
     font-size: 10px;
-  }
-  .companies a img{
-    max-width: 40px;
   }
  }
